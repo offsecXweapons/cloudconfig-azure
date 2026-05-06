@@ -1,0 +1,34 @@
+# Assessment output folders
+azure-review_*/
+reports/
+01-posture/
+02-logistics/
+03-visibility/
+04-access/
+05-trust/
+06-controls/
+07-tool-output/
+
+# Logs and tabular exports
+*.log
+*.csv
+
+# JSON outputs may include tenant/subscription inventory and findings
+*.json
+
+# Local auth/cache artifacts
+.azure/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Env/secrets
+.env
+*.secret
+*secret*
+*credential*
+*service-principal*
+
+# OS artifacts
+.DS_Store
